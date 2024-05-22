@@ -1,0 +1,45 @@
+      <div className=' bottom-[10%] w-screen flex justify-around'>
+           <div>
+           <p className='text-2xl mb-3'>Program</p>
+        <ul>
+          <li>Luni / 10:00 - 20:00</li>
+          <li>Marți / 10:00 - 20:00</li>
+          <li>Miercuri / 10:00 - 20:00</li>
+          <li>Joi / 10:00 - 20:00</li>
+          <li>Vineri / 10:00 - 20:00</li>
+          <li>Sâmbătă / INCHIS</li>
+          <li>Duminică / INCHIS</li>
+        </ul>
+        
+           </div>
+         
+    <div className='flex flex-col'>
+    <p className='text-2xl'>Contactează-ne la</p>
+    <div className='flex content-center items-center justify-around'><FaPhone size={20} />
+    <p className='text-[20px]'>0745621512</p>
+    </div>
+    </div>
+
+    <div>
+      <p className='text-2xl'>Adresă </p>
+    </div>
+
+        </div>
+
+        <div className=' bottom-[10%] w-screen flex justify-around p-24'>
+           <div className='justify-center text-center'>
+           <p className='text-6xl mb-3'>Program</p>
+        <ul className='text-2xl'>
+          <li>Luni / 10:00 - 20:00</li>
+          <li>Marți / 10:00 - 20:00</li>
+          <li>Miercuri / 10:00 - 20:00</li>
+          <li>Joi / 10:00 - 20:00</li>
+          <li>Vineri / 10:00 - 20:00</li>
+          <li>Sâmbătă / INCHIS</li>
+          <li>Duminică / INCHIS</li>
+        </ul>
+        
+           </div>
+         
+
+        </div>
