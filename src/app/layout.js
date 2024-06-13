@@ -8,7 +8,7 @@ export const metadata = {
   title: "HashtagMEN",
   description: "Bine ați venit la Hashtag Men, un loc unde tradiția întâlnește modernitatea! Salonul a fost deschis în acest an cu scopul de a aduce un suflu nou în lumea tunsorilor.",
   icons: {
-    icon: '../assets/favicon.ico', // /public path
+    icon: '../app/favicon.ico', // /public path
   },
 };
 
