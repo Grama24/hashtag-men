@@ -1,18 +1,18 @@
 .contact {
   position: relative;
   min-height: 100vh;
-  padding: 140px 100px;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: black;
+
   background-size: cover;
 }
 .contact .content {
-  max-width: 1000px;
+  width: 90%;
+  max-width: 1250px;
   text-align: center;
-  padding-right: 40px;
 }
 
 .contact .content h2 {
@@ -136,7 +136,6 @@
 
 @media (max-width: 991px) {
   .contact {
-    padding: 50px;
   }
   .container {
     flex-direction: column;
@@ -152,7 +151,6 @@
 
   .contact .content {
     padding-right: 0;
-    margin-top: 7rem;
   }
 }
 
@@ -165,5 +163,8 @@
 @media (max-width: 420px) {
   .contactForm h2 {
     font-size: 35px !important;
+  }
+  .contact .content h2 {
+    font-size: 50px;
   }
 }
