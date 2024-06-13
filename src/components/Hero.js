@@ -12,13 +12,13 @@ const Hero = () => {
         
         <Link href="https://mero.ro/p/hashtagmenstudio?absp=search_autocomplete"><button className=' bg-yellow-600 w-60 h-12 rounded-3xl text-xl block mx-auto uppercase duration-300 hover:bg-yellow-50 hover:text-yellow-600 hover:duration-500'>Programează-te</button></Link>
 
-    <Link className='tel hover:text-yellow-600 duration-200' href='tel:+40745621512'>
+    <Link className='tel hover:text-yellow-600 duration-200' href='tel:+40774685499'>
     <div className='absolute flex left-[15%] md:left-[35%] items-center bottom-16 md:bottom-8 cursor-pointer '>
         <div className='telicon h-12 w-12 bg-yellow-600 content-center rounded-full mr-4 duration-200'>
         <FaPhone size={20} className='mx-auto' />
         </div>
          
-    <p className='text-4xl md:hidden'>0745621512</p>
+    <p className='text-4xl md:hidden'>0774 685 499</p>
     
     </div>
     </Link>
@@ -27,7 +27,7 @@ const Hero = () => {
     <div className='absolute flex right-[15%] md:right-[35%] content-center bottom-16 md:bottom-8 '>
         
          
-        <p className='text-4xl my-auto md:hidden'>Bld. Iuliu Maniu 170</p>
+        <p className='text-4xl my-auto md:hidden'>Bld. Iuliu Maniu 170A</p>
         
         <div className='locicon h-12 w-12 bg-yellow-600 content-center rounded-full ml-4'>
             <FaMapPin size={20} className='mx-auto' />

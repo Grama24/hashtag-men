@@ -14,7 +14,7 @@ const DespreNoi = () => {
       <div className='flex flex-col w-[90%] max-w-[1250px] mx-auto bg-black shadow-2xl shadow-gray-300 bg-opacity-50 p-8 rounded-3xl'>
       <div className='flex flex-row lg:flex-col items-center gap-32 lg:gap-8 lg:text-center'>
       <img src={Poza.src} className='h-[500px] rounded-3xl shadow-xl '/>
-    <p className='text-4xl'>Bine ați venit la hashtag men, un loc unde tradiția întâlnește modernitatea! Salonul a fost deschis în acest an cu scopul de a aduce un suflu nou în lumea tunsorilor.</p>
+    <p className='text-4xl'>Bine ați venit la Hashtag Men, un loc unde tradiția întâlnește modernitatea! Salonul a fost deschis în acest an cu scopul de a aduce un suflu nou în lumea tunsorilor.</p>
       </div>
    
       </div>

@@ -27,6 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  background: hsla(0, 0%, 0%, 0.663);
 }
 
 .header::before {
@@ -124,7 +125,8 @@ body {
     left: 0;
     width: 100%;
     height: 0;
-    background: rgb(0, 0, 0);
+    background: hsla(0, 0%, 0%, 0.936);
+
     backdrop-filter: blur(50px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -132,12 +134,12 @@ body {
   }
 
   #check:checked ~ .navbar {
-    height: 18rem;
+    height: 14rem;
   }
 
   .navbar a {
     display: block;
-    font-size: 1.1rem;
+    font-size: 30px;
     margin: 1.5rem 0;
     text-align: center;
     transform: translateY(-50px);
@@ -148,6 +150,7 @@ body {
   #check:checked ~ .navbar a {
     transform: translateY(0);
     opacity: 1;
+    transition: 0.2s;
     transition-delay: calc(0.15s * var(--i));
   }
 }
