@@ -16,7 +16,7 @@ const Contact = () => {
       <div className=''>
       <img src={Concrete.src} className='imagine-landing bg-cover object-cover h-full w-full absolute top-0 left-0 z-[-1] opacity-40 scale-y-[-1]'/> 
       </div>
-        <h2 className='lg:mt-16' >Contactează-ne</h2>
+        <h2 className='mt-16' >Contactează-ne</h2>
         <p className='mt-16 lg:mt-4 mb-16'>Daca doresti sa purtam o conversatie fara obligatii, ne poti da un mesaj sau ne poti contacta la unele din variantele de contact de mai jos.
 
         </p>
@@ -27,7 +27,7 @@ const Contact = () => {
               <div className="icon"><IoIosPin className="text-white fa-solid fa-location-pin"/></div>
               <div className="text">
                 <h3>Adresa</h3>
-                <p>Strada strazii, nr 123, Sector 2, Bucuresti, Romania</p>
+                <p>Bulevardul Iuliu Maniu 170A, Sector 6, Bucuresti, Romania</p>
               </div>
 
             </div>
@@ -36,7 +36,8 @@ const Contact = () => {
               <div className="icon"><FaPhone className="text-white fa-solid fa-phone"/></div>
               <div className="text">
                 <h3 className="tlf">Telefon</h3>
-                <p className="nr">072391823</p>
+                <p className="nr">0774 685 499
+                </p>
               </div>
 
             </div>
@@ -46,7 +47,7 @@ const Contact = () => {
               <div className="icon"><MdEmail className="text-white fa-solid fa-envelope"/></div>
               <div className="text">
                 <h3 className="eml">Email</h3>
-                <p className="add">support@cmdextern.com</p>
+                <p className="add">hashtagmen25@gmail.ro</p>
               </div>
 
             </div>
@@ -55,15 +56,15 @@ const Contact = () => {
 
           
           <div className="contactForm bg-black bg-opacity-50 shadow-gray-300 shadow-2xl">
-            <form action="https://formsubmit.co/grama.andrei2002@gmail.com" method="POST" autocomplete="off">
+            <form action="https://formsubmit.co/hashtagmen25@gmail.ro" method="POST" autocomplete="off">
               <h2>Trimite un mesaj</h2>
               <div className="inputBox">
                 <input  type="text" name="name" className="input bg-transparent" required="required"/>
-          <span>Username</span>
+          <span>Nume</span>
               </div>
               <div className="inputBox">
-                <input className="bg-transparent" type="text" name="company" required="required"/>
-                <span>Compania</span>
+                <input className="bg-transparent" type="text" name="tel" required="required"/>
+                <span>Telefon</span>
               </div>
               <div className="inputBox">
                 <input className="bg-transparent" type="email" name="email" required="required"/>
