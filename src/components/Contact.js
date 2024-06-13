@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="contactInfo lg:flex lg:pl-[10%]">
             <div className="box">
               <div className="icon"><IoIosPin className="text-white fa-solid fa-location-pin"/></div>
-              <div className="text">
+              <div className="text text-white">
                 <h3>Adresa</h3>
                 <p>Bulevardul Iuliu Maniu 170A, Sector 6, Bucuresti, Romania</p>
               </div>
@@ -34,7 +34,7 @@ const Contact = () => {
 
             <div className="box">
               <div className="icon"><FaPhone className="text-white fa-solid fa-phone"/></div>
-              <div className="text">
+              <div className="text text-white">
                 <h3 className="tlf">Telefon</h3>
                 <p className="nr">0774 685 499
                 </p>
@@ -45,7 +45,7 @@ const Contact = () => {
 
             <div className="box">
               <div className="icon"><MdEmail className="text-white fa-solid fa-envelope"/></div>
-              <div className="text">
+              <div className="text text-white">
                 <h3 className="eml">Email</h3>
                 <p className="add">hashtagmen25@gmail.ro</p>
               </div>

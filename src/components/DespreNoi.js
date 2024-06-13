@@ -6,15 +6,15 @@ import { FaMedal, FaLaughSquint } from "react-icons/fa";
 import { FaScissors } from "react-icons/fa6";
 const DespreNoi = () => {
   return (
-    <div id="despre" className='relative pt-16'>
+    <div id="despre" className='relative pt-16 text-white'>
       <div className=''>
-      <h2 className='text-6xl text-center mb-16'>Despre Noi</h2>
+      <h2 className='text-6xl text-center mb-16 text-white'>Despre Noi</h2>
       <img src={Concrete.src} className='imagine-landing bg-cover object-cover h-full w-full absolute top-0 left-0 z-[-1] opacity-40 scale-y-[-1]'/> 
       </div>
       <div className='flex flex-col w-[90%] max-w-[1250px] mx-auto bg-black shadow-2xl shadow-gray-300 bg-opacity-50 p-8 rounded-3xl'>
       <div className='flex flex-row lg:flex-col items-center gap-32 lg:gap-8 lg:text-center'>
       <img src={Poza.src} className='h-[500px] rounded-3xl shadow-xl '/>
-    <p className='text-4xl'>Bine ați venit la Hashtag Men, un loc unde tradiția întâlnește modernitatea! Salonul a fost deschis în acest an cu scopul de a aduce un suflu nou în lumea tunsorilor.</p>
+    <p className='text-4xl text-white'>Bine ați venit la Hashtag Men, un loc unde tradiția întâlnește modernitatea! Salonul a fost deschis în acest an cu scopul de a aduce un suflu nou în lumea tunsorilor.</p>
       </div>
    
       </div>
@@ -33,7 +33,7 @@ const DespreNoi = () => {
 
      <div className='flex flex-col mt-32 p-8 w-[90%] max-w-[1250px] mx-auto gap-8 text-center shadow-2xl  shadow-gray-300 bg-black bg-opacity-50 rounded-3xl'>
       <h2 className='text-5xl text-white opacity-100'>Vă așteptăm cu drag!</h2>
-      <p className='text-2xl'>Veniți să descoperiți diferența pe care o face pasiunea pentru frizerie. La noi, fiecare client este tratat ca un prieten vechi, iar scopul nostru este să vă oferim cele mai bune servicii într-o atmosferă relaxată și primitoare.</p>
+      <p className='text-2xl text-white'>Veniți să descoperiți diferența pe care o face pasiunea pentru frizerie. La noi, fiecare client este tratat ca un prieten vechi, iar scopul nostru este să vă oferim cele mai bune servicii într-o atmosferă relaxată și primitoare.</p>
      </div>
 
     </div>
